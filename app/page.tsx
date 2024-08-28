@@ -89,10 +89,10 @@ export default function Home() {
                 AnandKumar Sivalanka
               </h1>
               <p>
-                With nearly a decade of development experience, I’ve always been
+                With nearly a decade of development experience, I&apos;ve always been
                 on the hunt for the next big thing.
                 <span>
-                  AI and Machine Learning have captured my curiosity, and I’m
+                  AI and Machine Learning have captured my curiosity, and I&apos;m
                   ready to dive deep and create impactful solutions.
                 </span>
               </p>
@@ -183,7 +183,7 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi I'm Anandkumar , developer and AI and ML engineer,looking for
+                Hi I&apos;m Anandkumar , developer and AI and ML engineer,looking for
                 Opportunities in AI AND ML roles{" "}
               </p>
               <p>
@@ -372,15 +372,15 @@ export default function Home() {
             <div className="chat-info">
               <h3>Anand AI Chatbot</h3>
               <p>
-                I've put together a chatbot here which knows all my skills, work
+                I&apos;ve put together a chatbot here which knows all my skills, work
                 experience and has a copy of my CV/Resume. You can use it to ask
                 questions about me to get a better idea of who I am and what
-                I've done.
+                I&apos;ve done.
               </p>
               <p>
                 You can also download my resume here if you want to take a look
-                at it. I'm currently looking for new opportunities so if you
-                have a project you think I'd be a good fit for, please get in
+                at it. I&apos;m currently looking for new opportunities so if you
+                have a project you think I&apos;d be a good fit for, please get in
                 touch!
               </p>
               <a href="./Anand LLM .pdf" className="button black">
