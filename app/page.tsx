@@ -290,7 +290,7 @@ export default function Home() {
                   <Image
                     src="/images/NSW.png"
                     alt="Machine"
-                    width={500}
+                    width={692}
                     height={100}
                   />
                   <figcaption>NSW Public Transport</figcaption>
@@ -311,7 +311,7 @@ export default function Home() {
                 <Image
   src="/images/salesforce.png"
   alt="Marketing"
-  width={500}
+  width={692}
   height={100}
 />
                   <figcaption>Marketing And Finance</figcaption>
@@ -331,7 +331,7 @@ export default function Home() {
                   <Image
                     src="/images/customer.jpg"
                     alt="usaa"
-                    width={500}
+                    width={692}
                     height={100}
                   />
                   <figcaption>Customer insights and Analytics</figcaption>
@@ -351,7 +351,7 @@ export default function Home() {
                   <Image
                     src="/images/dataanalyst.jpg"
                     alt="Data"
-                    width={500}
+                    width={692}
                     height={100}
                   />
                   <figcaption>
@@ -373,7 +373,7 @@ export default function Home() {
                   <Image
                     src="/images/internet.jpg"
                     alt="Marketing"
-                    width={500}
+                    width={692}
                     height={100}
                   />
                   <figcaption>Telecommunications</figcaption>
@@ -394,7 +394,7 @@ export default function Home() {
                   <Image
                     src="/images/charter.png"
                     alt="Charter"
-                    width={500}
+                    width={692}
                     height={50}
                   />
                   <figcaption>
