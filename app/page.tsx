@@ -84,10 +84,10 @@ export default function Home() {
         <section className="hero container">
           <div className="hero-blue">
             <div>
-              <h1>
-                <small>Hi I&apos;m</small>
-                AnandKumar Sivalanka
-              </h1>
+            <h1>
+  <small>Hi I&apos;m</small>
+  AnandKumar Sivalanka
+</h1>
               <p>
                 With nearly a decade of development experience, I&apos;ve always
                 been on the hunt for the next big thing.
@@ -254,9 +254,8 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi I&apos;m Anandkumar , developer and AI and ML
-                engineer,looking for Opportunities in AI AND ML roles{" "}
-              </p>
+  Hi I&apos;m Anandkumar, developer and AI and ML engineer, looking for Opportunities in AI AND ML roles &quot; &quot; 
+</p>
               <p>
                 At TechForce Services, our team pioneers in harnessing AI to
                 revolutionize transportation in New South Wales. This endeavor
@@ -265,7 +264,7 @@ export default function Home() {
                 success stems from meticulous data collection and the deployment
                 of bespoke algorithms, ensuring that we address the intricate
                 patterns of traffic and user behavior with precision. In
-                partnership with cross-functional teams, we've made significant
+                partnership with cross-functional teams, we&apos;ve made significant
                 strides in blending predictive analytics with marketing and
                 financial strategies. Our collective efforts have notably
                 enhanced customer engagement and driven financial performance,
@@ -306,12 +305,12 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image
-                    src="/images/salesforce.png"
-                    alt="Marketing"
-                    width={500}
-                    height={100}
-                  />
+                <Image
+  src="/images/salesforce.png"
+  alt="Marketing"
+  width={500}
+  height={100}
+/>
                   <figcaption>Marketing And Finance</figcaption>
                 </div>
               </figure>
@@ -338,7 +337,7 @@ export default function Home() {
               <h3>Machine Learning Engineer</h3>
               <div>2021-2022</div>
               <p>
-                The "Customer Insights and Analytics" project aims to transform
+                The &quot;Customer Insights and Analytics&quot; project aims to transform
                 how USAA, a leading insurance provider, understands and engages
                 with its members.
               </p>
