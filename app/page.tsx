@@ -108,13 +108,13 @@ export default function Home() {
               </div>
               <div className="social-links">
                 <a href="https://github.com/">
-                  <img src="./images/github.png" alt="GitHub" width="48" />
+                  <Image src="./images/github.png" alt="GitHub" width="48" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/anand-sivalanka-49683411b/?trk=opento_sprofile_details
 "
                 >
-                  <img
+                  <Image
                     src="./images/linkedinfour.png"
                     alt="LinkedIn"
                     width="48"
@@ -124,32 +124,32 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-yellow">
-            <img src="./images/MyPic.jpg" alt="Anandkumar" width="100%" />
+            <Image src="./images/MyPic.jpg" alt="Anandkumar" width={100} />
           </div>
         </section>
         <section className="logos container">
           <div className="andy">
             <div className="track">
-              <img src="./images/html.png" alt="HTML" width="128" />
-              <img src="./images/css.png" alt="CSS" width="128" />
-              <img src="./images/javascript.png" alt="JavaScript" width="128" />
-              <img src="./images/angular.png" alt="Angular" width="128" />
-              <img src="./images/react.png" alt="React" width="128" />
-              <img src="./images/python.jpeg" alt="Python" width="128" />
-              <img src="./images/java.png" alt="Java" width="128" />
-              <img src="./images/postgres.png" alt="PostgreSQL" width="128" />
-              <img src="./images/pinecone.jpg" alt="Pinecone" width="128" />
-              <img src="./images/chroma.png" alt="Chroma" width="128" />
-              <img src="./images/aws.png" alt="AWS" width="128" />
-              <img src="./images/gcp.png" alt="GCP" width="128" />
-              <img src="./images/langchain.png" alt="LangChain" width="128" />
-              <img src="./images/openai.png" alt="OpenAI" width="128" />
-              <img
+              <Image src="./images/html.png" alt="HTML" width="128" />
+              <Image src="./images/css.png" alt="CSS" width="128" />
+              <Image src="./images/javascript.png" alt="JavaScript" width="128" />
+              <Image src="./images/angular.png" alt="Angular" width="128" />
+              <Image src="./images/react.png" alt="React" width="128" />
+              <Image src="./images/python.jpeg" alt="Python" width="128" />
+              <Image src="./images/java.png" alt="Java" width="128" />
+              <Image src="./images/postgres.png" alt="PostgreSQL" width="128" />
+              <Image src="./images/pinecone.jpg" alt="Pinecone" width="128" />
+              <Image src="./images/chroma.png" alt="Chroma" width="128" />
+              <Image src="./images/aws.png" alt="AWS" width="128" />
+              <Image src="./images/gcp.png" alt="GCP" width="128" />
+              <Image src="./images/langchain.png" alt="LangChain" width="128" />
+              <Image src="./images/openai.png" alt="OpenAI" width="128" />
+              <Image
                 src="./images/huggingface.png"
                 alt="Hugging Face"
                 width="128"
               />
-              <img src="./images/CiCd.png" alt="CI/CD" width="128" />
+              <Image src="./images/CiCd.png" alt="CI/CD" width="128" />
             </div>
           </div>
         </section>
@@ -213,7 +213,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img src="./images/NSW.png" alt="Machine" width="100%" />
+                  <Image src="./images/NSW.png" alt="Machine" width={100} />
                   <figcaption>NSW Public Transport</figcaption>
                 </div>
               </figure>
@@ -229,10 +229,10 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img
+                  <Image
                     src="./images/salesforce.png"
                     alt="Marketing"
-                    width="100%"
+                    width={100}
                   />
                   <figcaption>Marketing And Finance</figcaption>
                 </div>
@@ -248,7 +248,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img src="./images/customer.jpg" alt="usaa" width="100%" />
+                  <Image src="./images/customer.jpg" alt="usaa" width={100} />
                   <figcaption>Customer insights and Analytics</figcaption>
                 </div>
               </figure>
@@ -263,7 +263,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img src="./images/dataanalyst.jpg" alt="Data" width="100%" />
+                  <Image src="./images/dataanalyst.jpg" alt="Data" width={100} />
                   <figcaption>
                     Diagnostic Test Optimization using Data Analysis
                   </figcaption>
@@ -280,10 +280,10 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img
+                  <Image
                     src="./images/internet.jpg"
                     alt="Marketing"
-                    width="100%"
+                    width={100}
                   />
                   <figcaption>Telecommunications</figcaption>
                 </div>
@@ -300,7 +300,7 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <img src="./images/charter.png" alt="Charter" width="100%" />
+                  <Image src="./images/charter.png" alt="Charter" width={100} />
                   <figcaption>
                     Spectrum Internet Service Enhancements
                   </figcaption>
@@ -322,41 +322,41 @@ export default function Home() {
           </h2>
           <div className="bento-grid">
             <a href="#" className="bento-item">
-              <img
+              <Image
                 src="./images/chatbot.png"
                 alt="Constitution ChatBot"
-                width="100%"
+                width={100}
               />
             </a>
             <a href="#" className="bento-item">
-              <img
+              <Image
                 src="./images/live.png"
                 alt="LiveSpeechToText"
-                width="100%"
+                width={100}
               />
             </a>
             <a href="#" className="bento-item">
-              <img
+              <Image
                 src="./images/houseprices.webp"
                 alt="HousePrices"
-                width="100%"
+                width={100}
               />
             </a>
             <a href="#" className="bento-item">
-              <img src="./images/rag.jpeg" alt="Rag" width="100%" />
+              <Image src="./images/rag.jpeg" alt="Rag" width={100} />
             </a>
             <a href="#" className="bento-item">
-              <img
+              <Image
                 src="./images/multiple.jpeg"
                 alt="MCQ Generator"
-                width="100%"
+                width={100}
               />
             </a>
             <a href="#" className="bento-item">
-              <img
+              <Image
                 src="./images/classficatation.png"
                 alt="ImageClassifaction"
-                width="100%"
+                width={100}
               />
             </a>
           </div>
