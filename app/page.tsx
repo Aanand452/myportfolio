@@ -312,7 +312,7 @@ export default function Home() {
   src="/images/salesforce.png"
   alt="Marketing"
   width={692}
-  height={100}
+  height={150}
 />
                   <figcaption>Marketing And Finance</figcaption>
                 </div>
@@ -332,7 +332,7 @@ export default function Home() {
                     src="/images/customer.jpg"
                     alt="usaa"
                     width={692}
-                    height={100}
+                    height={150}
                   />
                   <figcaption>Customer insights and Analytics</figcaption>
                 </div>
@@ -352,7 +352,7 @@ export default function Home() {
                     src="/images/dataanalyst.jpg"
                     alt="Data"
                     width={692}
-                    height={100}
+                    height={150}
                   />
                   <figcaption>
                     Diagnostic Test Optimization using Data Analysis
@@ -374,7 +374,7 @@ export default function Home() {
                     src="/images/internet.jpg"
                     alt="Marketing"
                     width={692}
-                    height={100}
+                    height={150}
                   />
                   <figcaption>Telecommunications</figcaption>
                 </div>
@@ -395,7 +395,7 @@ export default function Home() {
                     src="/images/charter.png"
                     alt="Charter"
                     width={692}
-                    height={50}
+                    height={150}
                   />
                   <figcaption>
                     Spectrum Internet Service Enhancements
