@@ -2,6 +2,9 @@
 import { useState } from "react";
 import Image from "next/image";
 
+/* eslint-disable react/no-unescaped-entities */
+
+
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [messageInput, setMessageInput] = useState("");
