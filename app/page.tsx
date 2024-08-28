@@ -13,23 +13,23 @@ export default function Home() {
     },
   ]);
 
-  const submitForm = async (e: { preventDefault: () => void; }) => {
+  const submitForm = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    let newMessages = [...messages, { role: 'user', content: messageInput }]
+    let newMessages = [...messages, { role: "user", content: messageInput }];
     setMessages(newMessages);
-    setMessageInput('');
-    const apiMessage = await fetch(
-      '/api',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ messages: newMessages })
-      }
-    ).then(res => res.json());
-    setMessages([...newMessages, { role: 'assistant', content: apiMessage.message }]);
-  }
+    setMessageInput("");
+    const apiMessage = await fetch("/api", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ messages: newMessages }),
+    }).then((res) => res.json());
+    setMessages([
+      ...newMessages,
+      { role: "assistant", content: apiMessage.message },
+    ]);
+  };
 
   const toggleMobileMenu = () => {
     setMenuOpen(!menuOpen);
@@ -85,15 +85,15 @@ export default function Home() {
           <div className="hero-blue">
             <div>
               <h1>
-                <small>Hi I'm</small>
+                <small>Hi I&apos;m</small>
                 AnandKumar Sivalanka
               </h1>
               <p>
-                With nearly a decade of development experience, I&apos;ve always been
-                on the hunt for the next big thing.
+                With nearly a decade of development experience, I&apos;ve always
+                been on the hunt for the next big thing.
                 <span>
-                  AI and Machine Learning have captured my curiosity, and I&apos;m
-                  ready to dive deep and create impactful solutions.
+                  AI and Machine Learning have captured my curiosity, and
+                  I&apos;m ready to dive deep and create impactful solutions.
                 </span>
               </p>
 
@@ -108,7 +108,12 @@ export default function Home() {
               </div>
               <div className="social-links">
                 <a href="https://github.com/">
-                  <Image src="/images/github.png" alt="GitHub" width={48} height={48} />
+                  <Image
+                    src="/images/github.png"
+                    alt="GitHub"
+                    width={48}
+                    height={48}
+                  />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/anand-sivalanka-49683411b/?trk=opento_sprofile_details
@@ -117,7 +122,7 @@ export default function Home() {
                   <Image
                     src="/images/linkedinfour.png"
                     alt="LinkedIn"
-                    width={48} 
+                    width={48}
                     height={48}
                   />
                 </a>
@@ -125,32 +130,98 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-yellow">
-            <Image src="/images/MyPic.jpg" alt="Anandkumar" width={500}   height={500}/>
+            <Image
+              src="/images/MyPic.jpg"
+              alt="Anandkumar"
+              width={500}
+              height={500}
+            />
           </div>
         </section>
         <section className="logos container">
           <div className="andy">
             <div className="track">
-              <Image src="/images/html.png" alt="HTML" width={128}  height={150}/>
-              <Image src="/images/css.png" alt="CSS" width={128}   height={150} />
-              <Image src="/images/javascript.png" alt="JavaScript" width={128}   height={150} />
-              <Image src="/images/angular.png" alt="Angular" width={128}  height={150} />
-              <Image src="/images/react.png" alt="React" width={128}  height={150} />
-              <Image src="/images/python.jpeg" alt="Python" width={128}  height={150} />
-              <Image src="/images/java.png" alt="Java" width={128}   height={150} />
-              <Image src="/images/postgres.png" alt="PostgreSQL" width={128}   height={150} />
-              <Image src="/images/pinecone.jpg" alt="Pinecone"width={128}   height={150} />
-              <Image src="/images/chroma.png" alt="Chroma" width={128}  height={150} />
-              <Image src="/images/aws.png" alt="AWS" width={128}   height={150} />
-              <Image src="/images/gcp.png" alt="GCP" width={128}  height={150} />
-              <Image src="/images/langchain.png" alt="LangChain" width={128}   height={150} />
-              <Image src="/images/openai.png" alt="OpenAI" width={128}  height={150} />
+              <Image
+                src="/images/html.png"
+                alt="HTML"
+                width={128}
+                height={150}
+              />
+              <Image src="/images/css.png" alt="CSS" width={128} height={150} />
+              <Image
+                src="/images/javascript.png"
+                alt="JavaScript"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/angular.png"
+                alt="Angular"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/react.png"
+                alt="React"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/python.jpeg"
+                alt="Python"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/java.png"
+                alt="Java"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/postgres.png"
+                alt="PostgreSQL"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/pinecone.jpg"
+                alt="Pinecone"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/chroma.png"
+                alt="Chroma"
+                width={128}
+                height={150}
+              />
+              <Image src="/images/aws.png" alt="AWS" width={128} height={150} />
+              <Image src="/images/gcp.png" alt="GCP" width={128} height={150} />
+              <Image
+                src="/images/langchain.png"
+                alt="LangChain"
+                width={128}
+                height={150}
+              />
+              <Image
+                src="/images/openai.png"
+                alt="OpenAI"
+                width={128}
+                height={150}
+              />
               <Image
                 src="/images/huggingface.png"
                 alt="Hugging Face"
-                width={128}   height={150}
+                width={128}
+                height={150}
               />
-              <Image src="/images/CiCd.png" alt="CI/CD" width={128}  height={150} />
+              <Image
+                src="/images/CiCd.png"
+                alt="CI/CD"
+                width={128}
+                height={150}
+              />
             </div>
           </div>
         </section>
@@ -183,8 +254,8 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-                Hi I&apos;m Anandkumar , developer and AI and ML engineer,looking for
-                Opportunities in AI AND ML roles{" "}
+                Hi I&apos;m Anandkumar , developer and AI and ML
+                engineer,looking for Opportunities in AI AND ML roles{" "}
               </p>
               <p>
                 At TechForce Services, our team pioneers in harnessing AI to
@@ -214,7 +285,12 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image src="/images/NSW.png" alt="Machine" width={500} height={100} />
+                  <Image
+                    src="/images/NSW.png"
+                    alt="Machine"
+                    width={500}
+                    height={100}
+                  />
                   <figcaption>NSW Public Transport</figcaption>
                 </div>
               </figure>
@@ -233,7 +309,8 @@ export default function Home() {
                   <Image
                     src="/images/salesforce.png"
                     alt="Marketing"
-                    width={500} height={100}
+                    width={500}
+                    height={100}
                   />
                   <figcaption>Marketing And Finance</figcaption>
                 </div>
@@ -249,7 +326,12 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image src="/images/customer.jpg" alt="usaa" width={500} height={100} />
+                  <Image
+                    src="/images/customer.jpg"
+                    alt="usaa"
+                    width={500}
+                    height={100}
+                  />
                   <figcaption>Customer insights and Analytics</figcaption>
                 </div>
               </figure>
@@ -264,7 +346,12 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image src="/images/dataanalyst.jpg" alt="Data" width={500} height={100} />
+                  <Image
+                    src="/images/dataanalyst.jpg"
+                    alt="Data"
+                    width={500}
+                    height={100}
+                  />
                   <figcaption>
                     Diagnostic Test Optimization using Data Analysis
                   </figcaption>
@@ -284,7 +371,8 @@ export default function Home() {
                   <Image
                     src="/images/internet.jpg"
                     alt="Marketing"
-                    width={500} height={100}
+                    width={500}
+                    height={100}
                   />
                   <figcaption>Telecommunications</figcaption>
                 </div>
@@ -301,7 +389,12 @@ export default function Home() {
             <article>
               <figure>
                 <div>
-                  <Image src="/images/charter.png" alt="Charter" width={500} height={50} />
+                  <Image
+                    src="/images/charter.png"
+                    alt="Charter"
+                    width={500}
+                    height={50}
+                  />
                   <figcaption>
                     Spectrum Internet Service Enhancements
                   </figcaption>
@@ -311,7 +404,7 @@ export default function Home() {
               <div>2016-2017</div>
               <p>
                 The Spectrum Internet Service Enhancements project focused on
-                improving Charter Communications' internet service.
+                improving Charter Communications internet service.
               </p>
             </article>
           </div>
@@ -326,21 +419,24 @@ export default function Home() {
               <Image
                 src="/images/chatbot.png"
                 alt="Constitution ChatBot"
-                width={555} height={2}
+                width={555}
+                height={2}
               />
             </a>
             <a href="#" className="bento-item">
               <Image
                 src="/images/live.png"
                 alt="LiveSpeechToText"
-                width={560} height={2}
+                width={560}
+                height={2}
               />
             </a>
             <a href="#" className="bento-item">
               <Image
                 src="/images/houseprices.webp"
                 alt="HousePrices"
-                width={270} height={10}
+                width={270}
+                height={10}
               />
             </a>
             <a href="#" className="bento-item">
@@ -350,14 +446,16 @@ export default function Home() {
               <Image
                 src="/images/multiple.jpeg"
                 alt="MCQ Generator"
-                width={560} height={30}
+                width={560}
+                height={30}
               />
             </a>
             <a href="#" className="bento-item">
               <Image
                 src="/images/classficatation.png"
                 alt="ImageClassifaction"
-                width={1450} height={30}
+                width={1450}
+                height={30}
               />
             </a>
           </div>
@@ -372,16 +470,16 @@ export default function Home() {
             <div className="chat-info">
               <h3>Anand AI Chatbot</h3>
               <p>
-                I&apos;ve put together a chatbot here which knows all my skills, work
-                experience and has a copy of my CV/Resume. You can use it to ask
-                questions about me to get a better idea of who I am and what
-                I&apos;ve done.
+                I&apos;ve put together a chatbot here which knows all my skills,
+                work experience and has a copy of my CV/Resume. You can use it
+                to ask questions about me to get a better idea of who I am and
+                what I&apos;ve done.
               </p>
               <p>
                 You can also download my resume here if you want to take a look
-                at it. I&apos;m currently looking for new opportunities so if you
-                have a project you think I&apos;d be a good fit for, please get in
-                touch!
+                at it. I&apos;m currently looking for new opportunities, so if
+                you have a project you think I&apos;d be a good fit for, please
+                get in touch!
               </p>
               <a href="./Anand LLM .pdf" className="button black">
                 Download Resume
@@ -390,19 +488,25 @@ export default function Home() {
             <div className="chat-box">
               <div className="scroll-area">
                 <ul id="chat-log">
-                {messages.map((message, index) => (
+                  {messages.map((message, index) => (
                     <li key={index} className={`${message.role}`}>
-                      <span className={`avatar`}>{message.role === 'user' ? 'You' : 'AI'}</span>
+                      <span className={`avatar`}>
+                        {message.role === "user" ? "You" : "AI"}
+                      </span>
                       <div className="message">{message.content}</div>
                     </li>
                   ))}
                 </ul>
               </div>
               <form onSubmit={submitForm} className="chat-message">
-                <input type="text" placeholder="Hey Anand, what skills are you best at?" value={messageInput} onChange={e => setMessageInput(e.target.value)} />
+                <input
+                  type="text"
+                  placeholder="Hey Anand, what skills are you best at?"
+                  value={messageInput}
+                  onChange={(e) => setMessageInput(e.target.value)}
+                />
                 <button className="button black">Send</button>
               </form>
-
             </div>
           </div>
         </section>
