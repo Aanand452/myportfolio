@@ -421,7 +421,7 @@ h3 {
 						opacity:1;
 						visibility:visible;
 					}
-					Image {
+					img {
 						transform: scale(1.2);
 					}
 				}
