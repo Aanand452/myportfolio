@@ -242,7 +242,7 @@ export default function Home() {
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Angular</li>
-                <li>Vue</li>
+              
               </ul>
               <h3>Backend</h3>
               <ul>
@@ -250,8 +250,7 @@ export default function Home() {
                 <li>Express</li>
                 <li>Python</li>
                 <li>Java</li>
-                <li>PHP</li>
-                <li>Ruby</li>
+          
               </ul>
             </div>
             <div className="right-column">
