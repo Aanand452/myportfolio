@@ -278,7 +278,7 @@ export default function Home() {
           </div>
         </section>
         <section id="skills" className="education">
-          <h2 className="intro">
+          <h2>
             <small>About My</small>
             Education
           </h2>
