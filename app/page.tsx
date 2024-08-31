@@ -279,7 +279,7 @@ export default function Home() {
         </section>
         <section id="skills" className="education">
           <h2 className="intro">
-            <small>About Me</small>
+            <small>About My</small>
             Education
           </h2>
           <div className="holder-blue">
