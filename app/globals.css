@@ -314,6 +314,43 @@ h3 {
 	color: var(--base-800);
 }
 
+/* .education{
+	background-color: var(--blue-100);
+	border-radius: 30px;
+	padding: 30px;
+	display: flex;
+
+
+} */
+
+.holder-blue {
+	background-color: var(--blue-100);
+	border-radius: 30px;
+	padding: 30px;
+	/* display: flex; */
+	@media(max-width:1024px){
+	  flex-direction:column;
+	}
+	ul {
+		display:flex ;
+		flex-wrap:wrap ;
+		list-style-type: style type none;
+		gap:50px;
+		margin-right: 100px;
+		margin-bottom: 20px;
+		li{
+		  display: inline-block;
+		  /* background-color: var(--blue-400);   */
+		  padding: 10px 0px;
+		  /* border-radius: 15px; */
+		  margin-bottom: 10px;
+		  }
+	  }
+
+	}
+
+
+
 .skills{
   .holder-blue{
       background-color: var(--blue-100);

@@ -277,6 +277,29 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section id="skills" className="education">
+          <h2 className="intro">
+            <small>About Me</small>
+            Education
+          </h2>
+          <div className="holder-blue">
+             <h3>Masters</h3>
+             <ul>
+              <li>Computer science</li>
+              <li>NPU</li>
+              <li>2014-2015</li>
+             </ul>
+             <h3>Bachelors</h3>
+             <ul>
+              <li>Electornics and communication</li>
+              <li>GIITS</li>
+              <li>2009-2013</li>
+             </ul>
+          
+              
+          
+          </div>
+        </section>
         <section className="work-experience container">
           <h2>
             <small>Recent</small>
