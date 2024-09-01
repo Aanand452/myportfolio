@@ -256,7 +256,7 @@ export default function Home() {
             <div className="right-column">
               <h3>A bit about me</h3>
               <p>
-  Hi I&apos;m Anandkumar, developer and AI and ML engineer, looking for Opportunities in AI AND ML roles; 
+  Hi I&apos;m Anandkumar, developer and AI and ML engineer, looking for Opportunities in AI AND ML roles
 </p>
               <p>
                 At TechForce Services, our team pioneers in harnessing AI to
