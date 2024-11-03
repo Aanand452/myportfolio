@@ -505,7 +505,7 @@ export default function Home() {
                 you have a project you think I&apos;d be a good fit for, please
                 get in touch!
               </p>
-              <a href="./Anand LLM .pdf" className="button black">
+              <a href="./ANAND_GEN_AI_Developer.pdf" className="button black">
                 Download Resume
               </a>
             </div>
