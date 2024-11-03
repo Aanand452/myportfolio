@@ -286,7 +286,7 @@ export default function Home() {
              <h3>Masters</h3>
              <ul>
               <li>Computer science</li>
-              <li>NPU</li>
+              <li>SFBU</li>
               <li>2014-2015</li>
              </ul>
              <h3>Bachelors</h3>
