@@ -101,7 +101,7 @@ export default function Home() {
               </p>
 
               <div className="call-to-action">
-                <a href="./Anand LLM .pdf" className="button black">
+                <a href="./AnandG_GEN_AI.pdf" className="button black">
                   {" "}
                   View Resume
                 </a>
